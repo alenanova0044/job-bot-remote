@@ -13,8 +13,8 @@ from rss_source import fetch_rss_vacancies
 from scorer import score_vacancy
 from storage import load_seen, save_seen
 
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-CHAT_ID = os.environ.get("TELEGRAM_GROUP_ID")
+BOT_TOKEN = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
+CHAT_ID = (os.environ.get("TELEGRAM_GROUP_ID") or "").strip()
 
 
 def load_criteria() -> dict:
