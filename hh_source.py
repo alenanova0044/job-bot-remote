@@ -27,9 +27,9 @@ def fetch_hh_vacancies(criteria: dict) -> list[dict]:
             "schedule": "remote",  # жёсткий фильтр — только удалённые вакансии, зашито в сам запрос
             "employment": criteria["hh_search"].get("employment", ["project", "full"]),
         }
-        try:
+       try:
             resp = requests.get(HH_API_URL, params=params, timeout=20,
-                                 headers={"User-Agent": "HH-User-Agent alenanova-job-search/1.0 (alena.bogdanova.job.search@gmail.com)"}
+                                 headers={"User-Agent": "HH-User-Agent alenanova-job-search/1.0 (alena.bogdanova.job.search@gmail.com)"})
             resp.raise_for_status()
         except requests.RequestException as e:
             print(f"[hh_source] Ошибка запроса для '{role}': {e}")
