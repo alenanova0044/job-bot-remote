@@ -83,7 +83,9 @@
 
   "stop_roles": [
     "developer", "разработчик", "программист", "engineer", "инженер",
-    "junior", "стажер", "стажёр", "intern"
+    "junior", "стажер", "стажёр", "intern",
+    "product manager", "продакт менеджер", "продакт-менеджер", "product owner",
+    "account executive", "customer success", "sales executive", "sales manager"
   ],
 
   "ad_post_stop_phrases": [
