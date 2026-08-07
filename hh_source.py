@@ -22,12 +22,12 @@ def fetch_hh_vacancies(criteria: dict) -> list[dict]:
             "text": role,
             "area": area,
             "per_page": per_page,
-            "period": 1,  # вакансии за последние сутки — бот и так гоняется по расписанию
+            "period": 1,
             "order_by": "publication_time",
-            "schedule": "remote",  # жёсткий фильтр — только удалённые вакансии, зашито в сам запрос
+            "schedule": "remote",
             "employment": criteria["hh_search"].get("employment", ["project", "full"]),
         }
-       try:
+        try:
             resp = requests.get(HH_API_URL, params=params, timeout=20,
                                  headers={"User-Agent": "HH-User-Agent alenanova-job-search/1.0 (alena.bogdanova.job.search@gmail.com)"})
             resp.raise_for_status()
