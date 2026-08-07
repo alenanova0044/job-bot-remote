@@ -137,9 +137,11 @@
     "vacanciesbest"
   ],
 
-  "rss_sources": [
+"rss_sources": [],
+
+  "rss_sources_reserved_for_english_track": [
     "https://remotive.com/remote-jobs/feed",
     "https://weworkremotely.com/categories/remote-management-and-finance-jobs.rss",
     "https://weworkremotely.com/categories/remote-sales-and-marketing-jobs.rss"
-  ]
+  ],
 }
