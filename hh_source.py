@@ -29,7 +29,7 @@ def fetch_hh_vacancies(criteria: dict) -> list[dict]:
         }
         try:
             resp = requests.get(HH_API_URL, params=params, timeout=20,
-                                 headers={"User-Agent": "alena-job-bot/1.0 (personal use)"})
+                                 headers={"User-Agent": "HH-User-Agent alenanova-job-search/1.0 (alena.bogdanova.job.search@gmail.com)"}
             resp.raise_for_status()
         except requests.RequestException as e:
             print(f"[hh_source] Ошибка запроса для '{role}': {e}")
