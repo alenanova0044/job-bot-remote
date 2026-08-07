@@ -13,8 +13,8 @@ from rss_source import fetch_rss_vacancies
 from scorer import score_vacancy
 from storage import load_seen, save_seen
 
-BOT_TOKEN = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
-CHAT_ID = (os.environ.get("TELEGRAM_GROUP_ID") or "").strip()
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+CHAT_ID = os.environ.get("TELEGRAM_GROUP_ID")
 
 
 def load_criteria() -> dict:
@@ -56,7 +56,8 @@ def run() -> None:
     seen = load_seen()
 
     all_vacancies = []
-    all_vacancies += fetch_hh_vacancies(criteria)
+    # hh.ru временно отключён — блокирует запросы с IP GitHub Actions (403), см. README
+    # all_vacancies += fetch_hh_vacancies(criteria)
     all_vacancies += fetch_telegram_vacancies(criteria)
     all_vacancies += fetch_rss_vacancies(criteria)
 
