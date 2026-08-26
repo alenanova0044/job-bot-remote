@@ -58,7 +58,7 @@
   ],
 
   "priority_industry_keywords": [
-    "edtech", "образовательн", "образование", "школа", "курсы", "менторство", 
+    "edtech", "образовательн", "образование", "школа", "курсы", "менторство",
     "health", "медицин", "wellness", "велнес", "клиник", "телемедицин",
     "психолог", "коучинг", "коуч", "терапи",
     "нко", "некоммерческ", "благотворительн", "фонд", "фандрайзинг",
@@ -74,7 +74,8 @@
 
   "stop_words": [
     "ozon", "озон", "яндекс лавка", "яндекс маркет", "wildberries", "вайлдберриз",
-    "маркетплейс",  "холодные звонки", "sales manager",
+    "маркетплейс", "фотопродакшн", "фото продакшн", "видеопродакшн",
+    "content production", "продакшн студия", "холодные звонки", "sales manager",
     "продажи b2c", "менеджер по продажам", "call-центр", "колл-центр",
     "музыкальный продюсер", "кинопродюсер", "звукорежиссер", "телепродюсер",
     "продюсер фильма", "продюсер сериала"
@@ -84,7 +85,10 @@
     "developer", "разработчик", "программист", "engineer", "инженер",
     "junior", "стажер", "стажёр", "intern",
     "product manager", "продакт менеджер", "продакт-менеджер", "product owner",
-    "account executive", "customer success", "sales executive", "sales manager"
+    "account executive", "customer success", "sales executive", "sales manager",
+    "designer", "дизайнер", "ui/ux", "ux/ui", "product designer", "graphic designer",
+    "hr-менеджер", "hr менеджер", "hr manager", "hr business partner", "hr bp",
+    "recruiter", "рекрутер", "recruitment", "talent acquisition", "кадровик", "кадровый"
   ],
 
   "ad_post_stop_phrases": [
@@ -102,6 +106,7 @@
   "salary_min_part_time_rub": 150000,
 
   "min_score_to_send": 5,
+  "max_ai_calls_per_run": 40,
 
   "hh_search": {
     "area": 113,
@@ -142,5 +147,23 @@
     "https://remotive.com/remote-jobs/feed",
     "https://weworkremotely.com/categories/remote-management-and-finance-jobs.rss",
     "https://weworkremotely.com/categories/remote-sales-and-marketing-jobs.rss"
+  ],
+
+  "target_companies": [
+    "InDrive", "The Soul Publishing", "ManyChat", "Airslate", "Recraft", "Vivid",
+    "Finom", "ProsmaLabs", "KeyGo", "Replika", "Plata", "Dubformer", "Placy",
+    "Exactly AI", "Intento", "Teralytics", "Salmon", "Adapty", "Miro", "Revolut",
+    "Palta", "Acronis", "JetBrains", "TradingView", "Semrush", "Wrike", "Expload",
+    "Flowwow", "Yango", "VOXYS", "Playrix", "Nebius", "Lightspeed", "Tribute",
+    "Cheelee", "Akvelon", "Unlimit", "Joom", "KodLand", "Volka", "AIdigital",
+    "Aquiva Labs", "DDL", "Coinspaid", "Smartcat", "WOTS", "Platinum list",
+    "Praktika", "Taxdome", "Belka games", "The Humanoid", "Homebuddy", "Group IB",
+    "Toloka", "Orion Innovation", "Exness", "Mapbox", "Findev", "Data-Driven lab",
+    "RingCentral", "Emerging Travel Group", "Островок", "Deel", "EXANTE", "Veeam",
+    "KateMedia", "Flo", "SEMA Software", "Sumsub", "QIC Digital Hub", "EBAC",
+    "Altegio", "Whoosh", "Wonder Family", "C Teleport", "Ecommpay", "LinkedHelper",
+    "Talentgrator", "Wert", "Wallet", "Xometry", "Americor", "EMCD", "Archway.finance",
+    "TripleTen", "Skyro", "Servers.com", "Social Discovery Group", "Aviasales",
+    "Jet", "G5 Games", "Visarun", "Dodobrands"
   ]
 }
