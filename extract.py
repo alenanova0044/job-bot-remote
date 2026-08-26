@@ -61,3 +61,14 @@ def short_description(text: str, max_len: int = 220) -> str:
     if len(clean) <= max_len:
         return clean
     return clean[:max_len].rsplit(" ", 1)[0] + "…"
+
+
+
+
+def detect_target_company(text: str, target_companies: list[str]) -> str | None:
+    """Возвращает название компании из списка HyperCareer, если оно упомянуто в тексте."""
+    t = (text or "").lower()
+    for name in target_companies:
+        if name.lower() in t:
+            return name
+    return None
