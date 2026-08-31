@@ -12,7 +12,7 @@ REMOTE_HINTS = [
 HYBRID_HINTS = ["гибрид", "hybrid"]
 ONSITE_HINTS = [
     "офис", "on-site", "onsite", "in office", "in-office",
-    "приезжать в офис", "работа в офисе", "только в офисе",
+    "приезжать в офис", "работа в офисе", "только в офисе", "удаленно",
 ]
 
 COUNTRY_HINTS = [
