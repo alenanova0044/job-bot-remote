@@ -1,0 +1,201 @@
+{
+  "roles_keywords": [
+    "operations manager",
+    "операционный менеджер",
+    "head of operations",
+    "руководитель операционного отдела",
+    "операционный директор",
+    "program operations",
+    "менеджер операционных программ",
+    "project operations manager",
+    "business operations manager",
+    "исполнительный директор фонда",
+    "операционное управление",
+
+    "project manager",
+    "проектный менеджер",
+    "проджект менеджер",
+    "проджект-менеджер",
+    "руководитель проекта",
+    "руководитель команды",
+    "руководитель",
+    "тимлид",
+    "тим лид",
+    "team lead",
+    "team leader",
+
+    "account manager",
+    "аккаунт менеджер",
+    "аккаунт-менеджер",
+    "клиентский менеджер",
+
+    "marketing manager",
+    "менеджер по маркетингу",
+    "маркетинг менеджер",
+    "head of marketing",
+    "marketing director",
+    "директор по маркетингу",
+    "руководитель маркетинга",
+    "маркетолог",
+    "marketer",
+    "marketing specialist",
+
+    "communications manager",
+    "менеджер по коммуникациям",
+    "pr manager",
+    "пр-менеджер",
+
+    "corporate development manager",
+    "key account manager",
+    "b2b manager",
+    "b2b-менеджер",
+    "менеджер по работе с корпоративными клиентами",
+
+    "digital producer",
+    "event producer",
+    "content producer",
+    "продюсер digital",
+    "ивент продюсер",
+    "продюсер мероприятий",
+    "контент продюсер",
+
+    "smm менеджер",
+    "smm-менеджер",
+    "smm manager",
+    "менеджер по smm",
+    "social media manager",
+    "менеджер социальных сетей",
+
+    "контент-менеджер",
+    "контент менеджер",
+    "content manager",
+    "редактор контента",
+    "content strategist",
+    "контент-стратег"
+  ],
+
+  "watchlist_keywords": [
+    "chief of staff"
+  ],
+
+  "priority_industry_keywords": [
+    "edtech", "образовательн", "образование", "школа", "курсы", "менторство",
+    "дпо", "доп. проф. образование", "дополнительное профессиональное образование",
+    "повышение квалификации", "онлайн-школа", "онлайн школа",
+    "health", "медицин", "wellness", "велнес", "клиник", "телемедицин",
+    "психолог", "коучинг", "коуч", "терапи",
+    "йога", "yoga", "пилатес", "растяжка",
+    "нко", "некоммерческ", "благотворительн", "фонд", "фандрайзинг",
+    "femtech", "женское здоровье",
+    "wellbeing", "well-being", "eap", "корпоративн", "l&d", "learning and development",
+    "mindfulness", "медитац", "осознанност",
+    "habit", "привычк", "productivity", "продуктивност", "саморазвити",
+    "parenting", "родительств", "детск",
+    "sleep tech", "сон",
+    "нутрициолог", "фитнес",
+    "ретрит", "конференци",
+    "приложение для здоровья", "health app", "цифровое здоровье",
+    "приложение для саморазвития", "self-development app", "обучающее приложение",
+    "образовательное приложение", "learning app", "edtech app",
+    "лайфстайл-маркетплейс", "лайфстайл маркетплейс", "нишевый маркетплейс",
+    "маркетплейс услуг", "маркетплейс подарков", "d2c",
+    "saas", "саас", "b2b saas", "b2c saas", "cloud-сервис", "cloud сервис",
+    "подписочный сервис", "подписочная модель", "subscription service",
+    "software as a service", "облачный сервис", "tech-платформа", "tech платформа"
+  ],
+
+  "stop_companies": [
+    "ozon", "озон", "яндекс лавка", "яндекс маркет", "wildberries", "вайлдберриз"
+  ],
+
+  "stop_roles": [
+    "developer", "разработчик", "программист", "engineer", "инженер",
+    "junior", "стажер", "стажёр", "intern",
+    "product manager", "продакт менеджер", "продакт-менеджер", "product owner",
+    "account executive", "customer success", "sales executive", "sales manager",
+    "designer", "дизайнер", "ui/ux", "ux/ui", "product designer", "graphic designer",
+    "hr-менеджер", "hr менеджер", "hr manager", "hr business partner", "hr bp",
+    "recruiter", "рекрутер", "recruitment", "talent acquisition", "кадровик", "кадровый",
+    "холодные звонки", "продажи b2c", "менеджер по продажам", "call-центр", "колл-центр",
+    "seo-специалист", "seo специалист", "seo-менеджер", "таргетолог", "контекстолог"
+  ],
+
+  "ad_post_stop_phrases": [
+    "вебинар", "мастер-класс", "мастер класс", "открыт набор на курс",
+    "интенсив", "марафон", "количество мест ограничено", "успей записаться",
+    "регистрируйся", "бесплатный урок", "старт потока", "новый поток",
+    "промокод", "скидка на курс", "записаться на курс", "запишись на курс",
+    "онлайн-курс стартует", "приглашаем на конференцию", "билеты на конференцию",
+    "розыгрыш", "конкурс репостов"
+  ],
+
+  "remote_schedule_values": ["remote", "flexible"],
+
+  "salary_min_full_time_equivalent_rub": 170000,
+
+  "min_score_to_send": 5,
+  "max_ai_calls_per_run": 40,
+
+  "hh_search": {
+    "area": 113,
+    "per_page": 50,
+    "employment": ["project", "full"]
+  },
+
+  "telegram_channels": [
+    "rabotauvalery",
+    "RabotaUdalenka",
+    "edujobs",
+    "startup_job_russia",
+    "lab_vacancies",
+    "razoomjobs",
+    "morejobs",
+    "theyseeku",
+    "huggabletalents",
+    "normrabota",
+    "it_vakansii_jobs",
+    "digital_jobster",
+    "zarubezhom_jobs",
+    "marketing_jobs",
+    "budujobs",
+    "geekjobs",
+    "noborders_forwomen",
+    "moskovskayarabota",
+    "rueventjob",
+    "artdesignjob",
+    "vitrinajobs",
+    "vacinartmsk",
+    "jobpower",
+    "vacanciesbest",
+    "tochnopw",
+    "vmestejob",
+    "careerspace"
+  ],
+
+  "rss_sources": [],
+
+  "rss_sources_reserved_for_english_track": [
+    "https://remotive.com/remote-jobs/feed",
+    "https://weworkremotely.com/categories/remote-management-and-finance-jobs.rss",
+    "https://weworkremotely.com/categories/remote-sales-and-marketing-jobs.rss",
+    "https://jobicy.com/?feed=job_feed"
+  ],
+
+  "target_companies": [
+    "InDrive", "The Soul Publishing", "ManyChat", "Airslate", "Recraft", "Vivid",
+    "Finom", "ProsmaLabs", "KeyGo", "Replika", "Plata", "Dubformer", "Placy",
+    "Exactly AI", "Intento", "Teralytics", "Salmon", "Adapty", "Miro", "Revolut",
+    "Palta", "Acronis", "JetBrains", "TradingView", "Semrush", "Wrike", "Expload",
+    "Flowwow", "Yango", "VOXYS", "Playrix", "Nebius", "Lightspeed", "Tribute",
+    "Cheelee", "Akvelon", "Unlimit", "Joom", "KodLand", "Volka", "AIdigital",
+    "Aquiva Labs", "DDL", "Coinspaid", "Smartcat", "WOTS", "Platinum list",
+    "Praktika", "Taxdome", "Belka games", "The Humanoid", "Homebuddy", "Group IB",
+    "Toloka", "Orion Innovation", "Exness", "Mapbox", "Findev", "Data-Driven lab",
+    "RingCentral", "Emerging Travel Group", "Островок", "Deel", "EXANTE", "Veeam",
+    "KateMedia", "Flo", "SEMA Software", "Sumsub", "QIC Digital Hub", "EBAC",
+    "Altegio", "Whoosh", "Wonder Family", "C Teleport", "Ecommpay", "LinkedHelper",
+    "Talentgrator", "Wert", "Wallet", "Xometry", "Americor", "EMCD", "Archway.finance",
+    "TripleTen", "Skyro", "Servers.com", "Social Discovery Group", "Aviasales",
+    "Jet", "G5 Games", "Visarun", "Dodobrands"
+  ]
+}
