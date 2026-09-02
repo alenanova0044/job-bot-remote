@@ -20,7 +20,7 @@ from extract import detect_format, detect_location, short_description, detect_ta
 BOT_TOKEN = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
 CHAT_ID = (os.environ.get("TELEGRAM_GROUP_ID") or "").strip()
 
-AI_CALL_DELAY_SECONDS = 4.5
+AI_CALL_DELAY_SECONDS = 9.5
 
 
 def load_criteria() -> dict:
